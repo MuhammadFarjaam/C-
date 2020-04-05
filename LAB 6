@@ -1,0 +1,210 @@
+/*#include <iostream>
+using namespace std;
+int main(){
+
+	int table, times;
+	cout << "\nProgram To Tables";
+	cout << "\n\nEnter Required Table Number" << endl;
+	cin >> table;
+	// for loop
+	for (times = 1; times <= 12; times++){
+		cout << table << " * " << times << " = " << table*times << endl;
+	}
+}*/
+
+----------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main(){
+
+	int a, b, i;
+	cout << "Program To Fine Square and Cube Of Numbers ";
+	cout << "\n\nEnter Uper Limit" << endl;
+	cin >> a;
+	cout << "\nEnter Lower Limit" << endl;
+	cin >> b;
+	cout << "-------------------------------" << endl;
+	cout << "\t|  Square" << "\t|  Cube" << endl;
+	// for loop
+	for (i = a; i <= b; i++){
+
+		cout << i << "\t|  " << i*i;
+		cout << "\t\t|  " << i*i*i << endl;
+	}
+
+}*/
+
+--------------------------------------------------------------------------------------
+
+/*#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	int g, i;
+	double l;
+	cout << "Program to convert Gallons into liters";
+	cout << "\n\nEnter No of Gallons" << endl;
+	cin >> l;
+	g = l*3.785;
+	cout << l << " Gallons -- in Litters = ";
+	cout << g << endl;
+	cout << "\n\n Gallons      Liters " << endl;
+	cout << " _______     ________ " << endl;
+	// for loop
+	for (i = 10; i <= 20; i++)
+	{
+		cout << setw(4) << i << setw(16) << i*3.785 << endl;
+
+	}
+	system("PAUSE");
+	return 0;
+}*/
+
+-----------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+
+int main()
+{
+	int rows, first, second;
+
+	cout << "Enter number of rows: ";
+	cin >> rows;
+	// Nested For loop
+	for (first = 1; first <= rows; first++)
+	{
+		//print * equal to row number
+		for (second = 1; second <= first; second++)
+		{
+			cout << "* ";
+		}
+		cout << "\n";
+	}
+	return 0;
+}*/
+
+--------------------------------------------------------------------------------------------
+
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a = 6, j, k, l;
+	// Nested FOR LOOP
+	for (int i = 0; i < a; i++)
+	{
+		l = 1;
+		// SPACES
+		for (j = 1; j < (a - i); j++)
+		{
+			cout << "   ";
+		}
+		for (k = 0; k <= i; k++)
+		{
+			cout << "      " << l;
+			l = l * (i - k) / (k + 1);
+		}
+		cout << endl << endl;
+	}
+	cout << endl;
+	return 0;
+}*/
+
+---------------------------------------------------------------------------------------
+
+/*#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a = 6, j, k, l;
+	// Nested FOR LOOP
+	for (int i = 0; i < a; i++)
+	{
+		l = 1;
+		// SPACES
+		for (j = 1; j < (a - i); j++)
+		{
+			cout << "   ";
+		}
+		for (k = 0; k <= i; k++)
+		{
+			cout << "      " << l;
+			l = l * (i - k) / (k + 1);
+		}
+		cout << endl << endl;
+	}
+	cout << endl;
+	return 0;
+}*/
+
+---------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main(){
+	int i;
+	char alphabet ='A' ;
+	// For loop
+	for (i = 1; i <= 26; i++){
+		cout << i << " :" << alphabet << "\n";
+		++alphabet;
+	}
+	return 0;
+
+}*/
+
+------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main(){
+	int a, i, sum = 1;
+	cout << "Enter End Point Of Series\n";
+	cin >> i;
+	// For loop
+	for (a = 1; a <= i; a++){
+		cout << sum << endl;
+		sum = sum + 1;
+	}
+	return 0;
+}*/
+
+----------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main(){
+	int n;
+
+	for (n = 10; n > 0; n--){
+		cout << n << ", ";
+		if (n == 3)
+		{
+			cout << "Countdown Aborted!" << endl;
+			break;
+		}
+	}
+	return 0;
+}*/
+
+----------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n;
+	// for loop with contimue
+	for (n = 10; n > 0; n--){
+		if (n == 5) continue;
+		cout << n << ", ";
+	}
+	cout << "Fire ! \n\n";
+	return 0;
+}
+
