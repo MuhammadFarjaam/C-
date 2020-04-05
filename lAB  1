@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << "Name : Muhammad Farjaam \t \t Enrollment : 02-133192-086 \nClass : BEE-2B \t \t \t \t Year : 2020"<<endl;
+
+	cout <<endl << "\"Hi, my name is \"M.Farjaam\" .I am studying in Bahria University. \n I took up Engnieering as my career.\""<<endl;
+
+	cout <<endl << "Previous GPA : '3.9' \n";
+
+	return 0;
+
+}
+
