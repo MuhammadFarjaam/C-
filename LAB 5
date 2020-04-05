@@ -1,0 +1,166 @@
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	float a, b;
+	char c;
+
+	// Inputs
+	cout << "Program To Perform Simple Mathmatics" << endl << endl;
+	cout << "Enter First Number = ";
+	cin >> a;
+	cout << "Enter Second Number = ";
+	cin >> b;
+	cout << "\n Enter Required Operaion  +, -, *, /" << endl;
+	cin >> c;
+
+	// Switch Case
+	switch (c){
+	case '+':
+		cout << a << "+" << b << "= " << a + b << endl << endl;
+		break;
+	case '-':
+		cout << a << "-" << b << "= " << a - b << endl << endl;
+		break;
+	case '*':
+		cout << a << "*" << b << "= " << a * b << endl << endl;
+		break;
+	case '/':
+		cout << a << "/" << b << "= " << a / b << endl << endl;
+		break;
+	default:
+		cout << "Invalid Opeartor" << endl << "\02" << endl;
+	}
+}*/
+
+---------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	int monthnumber;
+	// Input
+	cout << "Enter month number(1-12): ";
+	cin >> monthnumber;
+	// Switch
+	switch (monthnumber)
+	{
+	case 1: cout << "31 days" << endl;
+		break;
+	case 2: cout << "28 or 29 days" << endl;
+		break;
+	case 3: cout << "31 days" << endl;
+		break;
+	case 4: cout << "30 days" << endl;
+		break;
+	case 5: cout << "31 days" << endl;
+		break;
+	case 6: cout << "30 days" << endl;
+		break;
+	case 7: cout << "31 days" << endl;
+		break;
+	case 8: cout << "31 days" << endl;
+		break;
+	case 9: cout << "30 days" << endl;
+		break;
+	case 10: cout << "31 days" << endl;
+		break;
+	case 11: cout << "30 days" << endl;
+		break;
+	case 12: cout << "31 days" << endl;
+		break;
+	default: cout << "Invalid input!!! enter month number between 1-12" << endl;
+	}
+	return 0;
+
+}*/
+
+----------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main(){
+	int Class, Subject;
+	cout << "Enter Class <1-3> " << endl;
+	cin >> Class;
+	//Switch (------If Else Inside-------)
+	switch (Class)
+	{
+	case 1:
+	{
+		cout << "\n\nEnter No of failed Subjects"<<endl;
+		cin >> Subject;
+		if (Subject <= 3)
+		{
+			cout << "\nStudent Will Be Given 5 marks each subject" << endl;
+		}
+		else
+			cout << "\nNo Grace marks Will be Given" << endl;
+	}
+		break;
+	case 2:
+	{
+			  cout << "\n\nEnter No of failed Subjects" << endl;
+			  cin >> Subject;
+			  if (Subject <= 2)
+			  {
+				  cout << "\nStudent Will Be Given 4 marks each subject" << endl;
+			  }
+			  else
+				  cout << "\nNo Grace marks Will be Given" << endl;
+	}
+		break;
+	case 3:
+	{
+			  cout << "\n\nEnter No of failed Subjects" << endl;
+			  cin >> Subject;
+			  if (Subject == 1)
+			  {
+				  cout << "\nStudent Will Be Given 5 marks each subject" << endl;
+			  }
+			  else
+				  cout << "\nNo Grace marks Will be Given" << endl;
+	}
+		break;
+
+	}
+
+}
+
+------------------------------------------------------------------------------------------------------------------------
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int input;
+	cout << "Semester 2 has five papers." << endl;
+	cout << "Enter any Number 1 to 5 to select paper \n";
+	cin >> input;
+	cout << endl;
+	switch (input)
+	{
+	case 1:
+		cout << "Paper 1 is Communication Skills\n";
+		break;
+	case 2:
+		cout << "Paper 2 is Applied Mathematics \n";
+		break;
+	case 3:
+		cout << "Paper 3 is Programming Fundamentals \n";
+		break;
+	case 4:
+		cout << "Paper 4 is Electronics & Communication Technology \n";
+		break;
+	case 5:
+		cout << "Paper 5 is Introduction to Sociology \n";
+		break;
+	default:
+		cout << "Not a valid input";
+		break;
+	}
+	return 0;
+}
+
+
