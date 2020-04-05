@@ -1,0 +1,118 @@
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	float l, w; // Defining Float because of Decimal
+	cout << "Program To Find whether the shape is Square or Reactangle" << endl << endl; // To make program user friendly
+	cout << "Enter Length = "; // Telling user what to do
+	cin >> l; // Insert value of Length
+	cout << "\nEnter Width = "; // Insert value of Width 
+	cin >> w;
+	if (l == w) // If - Else condition
+		cout << "\nThe Shape is Square \a \n"<< endl; // True Run this
+	else                                               // \a is for beep/ sound
+		cout << "\nThe Shape is rectangle \a \n" << endl; // False Run this
+	return 0;
+}
+*/
+
+------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	float r, pie = 3.142; // Defining Float because of Decimal
+	cout << "Program To Find The Area Of Circle \n";   // To make program user friendly
+	cout << "Enter Radius = ";    // Taking value form the user
+	cin >> r;  // Value inserted by the user
+	(r>0) ?   // if condition
+		cout << "Area Of Circle = " << pie*(r*r) << endl :  // If condition tue
+		cout << "Area cannot be calculated for negative values" << endl; // If condition false
+	return 0;
+}*/
+
+------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	float a; // Defining Float because of Decimal
+	cout << "Program To Find Acute,Right and Obtuse Angle "<<endl; // To make program user friendly
+	cout << "\nEnter Angle = "; // Telling User What to do
+	cin >> a;  // Asking value from the user
+	if (a<90){              // if , else -if 
+		cout << "The Angle is Acute Angle " << endl; // output
+	}
+	else if (a == 90){
+		cout << "The Angle is Right Angle " << endl; // output
+	}
+	else if (a>90){    // nested if
+		if (a < 180){
+		cout << "The Angle is Obtuse Angle " << endl; // output
+		}
+	}
+	return 0;
+}*/
+
+--------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main(){
+
+	float a, s, o, f = 5000, g = 2000; // Defining Float because of Decimal
+	cout << "Enter Speed Limit "; // Telling User what to do
+	cin >> a; // value from the user
+	cout << "\nEnter Actual Speed "; // Telling User what to do
+	cin >> s; // value from the user
+	o = s - a;  // defing float o value
+	if (o > 25) // if-else condition
+		cout << "The fine for travelling " << o << " miles over the speed limit is : " << "Rs "<< f << endl; // if true
+	else
+		cout << "The fine for travelling " << o << " miles over the speed limit is : " << "Rs " << g << endl; // if false
+	return 0;
+}*/
+
+---------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	float a, b, c, d, e, p, f; // Type float for decimals
+	cout << "Enter Your Marks" << endl; // Telling User
+	cout << "\n \nSubject 1 ";  // Marks of Subject
+	cin >> a;      // input by user
+	cout << "\nSubject 2 "; // Marks of Subject
+	cin >> b;  // input by user
+	cout << "\nSubject 3 "; // Marks of Subject
+	cin >> c;  // input by user
+	cout << "\nSubject 4 "; // Marks of Subject
+	cin >> d;  // input by user
+	cout << "\nSubject 5 "; // Marks of Subject
+	cin >> e;  // input by user
+	f = a + b + c + d + e;  // Calculation for total marks
+	cout << "\nTotal Marks = " << f << endl; // Print total marks on screen
+	p = (f / 500) * 100; // Calculation for Percentage
+	cout << "Percentage = " << p << endl; // Print Percentage on screen
+
+	if (p < 100 && p >= 90){   // if conditions Chain if-else structure
+		cout << "Grade A"<<endl;
+	}
+	else if (p < 90 && p >= 80){
+		cout << "Grade B" << endl;
+	}
+	else if (p < 80 && p >= 70){
+		cout << "Grade C" << endl;
+	}
+	else if (p < 70 && p >= 60){
+		cout << "Grade D" << endl;
+	}
+	else {
+		cout << "Grade F"<<endl;
+	}
+	return 0;
+}
+
