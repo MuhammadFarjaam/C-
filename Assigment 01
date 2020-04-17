@@ -1,0 +1,530 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	/*Muhammad Farjaam
+	02-133192-086*/
+	
+	// \t = Eight Spaces to Right
+	// \n = New Line
+	
+
+	cout << "\"Twinkle Twinkle Little Star\"" << endl; // Printing the Following message on screen which is closed in inverted Comas.
+	cout << "\n \nTwinkle, twinkle, little star, \nHow I wonder what you are.\nUp above the world so high,\nLike a diamond in the sky.";
+	cout << "\n \nWhen the blazing sun is gone,\nWhen he nothing shines upon,\nThen you show your little light,\nTwinkle, twinkle, all the night.";
+	cout << "\n \nThen the traveller in the dark, \nThanks you for your tiny spark, \nHe could not see which way to go, \nIf you did not twinkle so.";
+	cout << "\n \nIn the dark blue sky you keep, \nAnd often through my curtains peep, \nFor you never shut your eye, \n‘Till the sun is in the sky.";
+	cout << "\n \nAs your bright and tiny spark, \nLights the traveller in the dark. \nThough I know not what you are, \nTwinkle, twinkle, little star.\n\n";
+	return 0;
+
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	
+
+	cout << "A program that displays the Area of Circle, square and triangle"; // Print the following statement to screen
+	cout << "\n \nArea Of Circle = Pie*(Radius*Radius)";
+	cout << "\nArea Of Square = Length*Length";
+	cout << "\nArea Of Triangle = (Base*Height)/2" << endl << endl;
+	return 0;
+}*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+float a = 10000;
+cout << "A program that convert Pakistani Rupees into US dollars and UAE Darham";
+cout << "\n\nAmount in US dollars = " << a*(0.006369)<<" US $";
+cout << "\nAmount in UAE Darham = " << a*(1 / 42.99) <<" AED" << endl;
+return 0;
+}*/
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+
+	Muhammad Farjaam
+	 02-133192-086
+	
+float pie = 3.14, r, l, b, h; // Defining Data type Float
+cout << "A program that displays the Area of Circle, square and triangle";
+cout << "\n \nEnter The value of radius, length, base, height";
+cout << "\n \nEnter Radius = ";
+cin >> r;        // Input feom user
+cout << "\n \nEnter Length = ";
+cin >> l;        // Input feom user
+cout << "\n \nEnter Base = ";
+cin >> b;          // Input feom user
+cout << "\n \nEnter Height = ";
+cin >> h;
+
+
+cout << "\n \nArea Of Circle = "<< pie*(r*r); //Area of circle
+cout << "\nArea Of Square = "<< l*l;  // area of square
+cout << "\nArea Of Triangle = " << (b*h)/2 << endl << endl; // area of triangle
+return 0;
+}*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	/*Muhammad Farjaam
+	  02-133192-086*/
+	
+	float a;
+	cout << "A program that convert Pakistani Rupees into US dollars and UAE Darham";
+	cout << "\n\nEnter Amount in PKR ";
+	cin >> a; // Input from User
+	// Taking a = 1000
+	// Conversion
+	cout << "\n\nAmount in US dollars = " << a*(0.006369) << " US $";
+	cout << "\nAmount in UAE Darham = " << a*(1 / 42.99) << " AED" << endl;
+	return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	
+float a, b, c;
+cout << "Program Print square, cube and average of three numbers ";
+
+cout << "\n\nEnter Number 1 ";
+cin >> a;
+cout << "\nEnter Number 2 ";
+cin >> b;
+cout << "\nEnter Number 3 ";
+cin >> c;
+ //Taking a= 2, b= 3 , c=4
+//Solution
+cout << "\nNumber 1";
+cout << "\nSquare of Number 1 = " << a*a ;
+cout << "\nCube of Number 1 = " << a*a*a;
+cout << "\n\nNumber 2";
+cout << "\nSquare of Number 2 = " << b*b;
+cout << "\nCube of Number 2 = " << b*b*b;
+cout << "\n\nNumber 3";
+cout << "\nSquare of Number 3 = " << c*c;
+cout << "\nCube of Number 3 = " << c*c*c;
+cout << "\n\nAverage = "<<(a+b+c)/3<<endl;
+
+return 0;
+}*/
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+#define pie 3.14  // Constant 
+using namespace std;
+int main()
+{
+float r, h; // Data type float
+cout << "Program to find the Volume Of Cone";
+
+cout << "\n\nEnter Radius ";
+cin >> r; // Input
+cout << "\nEnter Height ";
+cin >> h; // Input
+float a = r*r;
+cout << "\n\nThe Volume of Cone = " << (pie*a)*(h/3) <<endl;
+
+return 0;
+
+}*/
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	
+float a, b, c, d, e, f;
+cout << "Program to Print Total Marks and Percentage";
+
+cout << "\n\nEnter Marks of Each Subject";
+cout << "\n Subject 1 ";
+cin >> a; // Input From User
+cout << "\n Subject 2 ";
+cin >> b; // Input From User
+cout << "\n Subject 3 ";
+cin >> c; // Input From User
+cout << "\n Subject 4 ";
+cin >> d; // Input From User
+cout << "\n Subject 5 ";
+cin >> e; // Input From User
+
+f = a + b + c + d + e;
+
+cout << "\n\nTotal Marks = " << f;
+cout << "\nPercentage = " << (f / 500) * 100 << "%" << endl;
+return 0;
+}*/
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int a = 0, b, c;
+	cout << "Program to find Sum of Three Digit Number";
+	cout << "\n\nEnter Three Digit Number ";
+	cin >> b;
+	// Taking 123 
+	c = b % 10; //  3
+	a += c; //  3
+	b = b / 10; // 12
+	c = b % 10; // 2
+	a += c; //   5
+	b = b / 10; //  1
+	a = a + b; // 6 
+
+
+	cout << "\nSum = " << a << endl;
+	return 0;
+}*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	int a, b, c, d, e;
+	cout << "Program to Give Sum reverse order of Five Digit Number";
+	cout << "\n\nEnter Five Digit Number ";
+
+	cout << "Enter Five digit Number ";
+	cin >> a;
+	// Taking 98765 input
+	b = a % 10;
+	a = a / 10;
+	c = a % 10;
+	a = a / 10;
+	d = a % 10;
+	a = a / 10;
+	e = a % 10;
+	a = a / 10;
+
+	cout << "\n\nIn Reverse Order ";
+	cout << b << c << d << e << a << endl;
+
+	return 0;
+
+
+
+}*/
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	
+float g;
+char i;
+cout << "Program To Convert Temperature";
+cout << "\n\nPlease Select Option";
+cout << "\n\nA) Farenheit to Celsius";
+cout << "\nB) Celsius to Farenheit" << endl;
+cin >> i;
+//If else Conditions
+if (i == 'a' || i == 'A'){             // if condition
+cout << "\n\nEnter Temperature in Farenheit";
+cout << "\n T = ";
+cin >> g;
+cout << "Temperature in Celsius = " << (g - 32) * (5.0 / 9.0) << endl;
+}
+else if (i == 'b' || i == 'B'){         //Another if condition
+cout << "\n\nEnter Temperature in Celsius";
+cout << "\n T = ";
+cin >> g;
+cout << "Temperature in Farenheit = " << (9 / 5)*g + 32 << endl;
+}
+else {
+cout << "Invalid Option";
+}
+return 0;
+
+}*/
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	int a, b;
+	cout << "Enter Quantity Of Products" << endl;
+	cin >> a;
+	cout << "\nEnter Total Price of Products" << endl;
+	cin >> b;
+	// if else condition
+	if (a > 50){
+		cout << "\nYou have achieved 20% Discount On Total Amount " << endl;
+		cout << "Total Price = " << b - (b*0.2) << endl;
+	}
+	else{
+		cout << "No Discount \n Total Price = " << b << endl;
+
+	}
+	return 0;
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+float a, b, c, d, e, p, f; // Type float for decimals
+cout << "Enter Your Marks" << endl; // Telling User
+cout << "\n \nSubject 1 ";  // Marks of Subject
+cin >> a;      // input by user
+cout << "\nSubject 2 "; // Marks of Subject
+cin >> b;  // input by user
+cout << "\nSubject 3 "; // Marks of Subject
+cin >> c;  // input by user
+cout << "\nSubject 4 "; // Marks of Subject
+cin >> d;  // input by user
+cout << "\nSubject 5 "; // Marks of Subject
+cin >> e;  // input by user
+f = a + b + c + d + e;  // Calculation for total marks
+cout << "\nTotal Marks = " << f << endl; // Print total marks on screen
+p = (f / 500) * 100; // Calculation for Percentage
+cout << "Percentage = " << p << endl; // Print Percentage on screen
+
+if (p < 100 && p >= 90){   // if conditions Chain if-else structure
+cout << "Grade A" << endl;
+}
+else if (p < 90 && p >= 80){
+cout << "Grade B" << endl;
+}
+else if (p < 80 && p >= 70){
+cout << "Grade C" << endl;
+}
+else if (p < 70 && p >= 60){
+cout << "Grade D" << endl;
+}
+else {
+cout << "Grade F" << endl;
+}
+return 0;
+}*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main()
+{
+	
+char f;
+cout << "Program To Find Vowel or Consonant";
+cout << "\n\nEnter One Letter"<<endl;
+cin >> f;
+if (f == 'a' || f == 'e' || f == 'i' || f == 'o' || f == 'u' || f == 'A' || f == 'E' || f == 'I' || f == 'O' || f == 'U')
+{
+   cout << "Letter you Entered is Vowel";
+   if (f == 'A' || f == 'E' || f == 'I' || f == 'O' || f == 'U')
+   {
+      cout << "\nLetter you Entered is Capital" << endl;
+   }
+  else
+  {
+      cout << "\nLetter you Entered is Small" << endl;
+  }
+}
+else
+  {
+    cout << "Letter you Entered is Consonant";
+     if (f == 'B' || f == 'C' || f == 'D' || f == 'F' || f == 'G' || f == 'H' || f == 'J' || f == 'K' || f == 'L' || f == 'M' || f == 'N' || f == 'P' || f == 'Q' || f == 'R' || f == 'S' || f == 'T' || f == 'V' || f == 'W' || f == 'X' || f == 'Y' || f == 'Z')
+      {
+        cout << "\nLetter you Entered is Capital" << endl;
+      }
+     else
+     {
+       cout << "\nLetter you Entered is Small" << endl;
+      }
+}
+
+return 0;
+}*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+/*#include <iostream>
+using namespace std;
+int main(){
+
+float A, B, C,D;
+
+cout << "Program To Calculte Dterminant";
+cout << "\n\nEnter The Following Information";
+cout << "\nEnter Value of A  ";
+cin >> A;
+cout << "\nEnter Value of B  ";
+cin >> B;
+cout << "\nEnter Value of C  ";
+cin >> C;
+
+D = (B*B) - 4 * A*C;
+
+cout << "Determinant = " << D <<endl;
+
+if (D == 0){
+cout << "Equal Roots" << endl;
+}
+else if (D>0){
+cout << "Real Roots" << endl;
+}
+else{
+cout << "Imaginary Roots" << endl;
+}
+return 0;
+}*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main(){
+
+	
+float a, b;
+char o;
+cout << "Program To perform Basic Mathematic Operations";
+cout << "\n\nEnter First value  ";
+cin >> a;
+cout << "\nEnter Second value  ";
+cin >> b;
+cout << "\nEnter Operation  ";
+cin >> o;
+switch (o){
+case '+':
+cout << "\nResult = " << a + b << endl;
+break;
+case '-':
+cout << "\nResult = " << a - b << endl;
+break;
+case '*':
+cout << "\nResult = " << a * b << endl;
+break;
+case '/':
+cout << "\nResult = " << a / b << endl;
+break;
+}
+}
+*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*#include <iostream>
+using namespace std;
+int main(){
+
+	
+	int a;
+	cout << "Enter Lecture Number : <1-4>";
+	cin >> a;
+	switch (a){
+	case 1:
+		cout << "In This Lecture you will study \n1). Relational Operators \n2). Loops \n3). Decisions";
+		break;
+	case 2:
+		cout << "In This Lecture you will study \n1). Logical Operators \n2). Precedence Summary \n3). Structures";
+		break;
+	case 3:
+		cout << "In This Lecture you will study \n1). Simple Functions \n2). Passing Constants \n3). Passing Variables";
+		break;
+	case 4:
+		cout << "In This Lecture you will study \n1). A Simple Class \n2). Array Fundamental \n3). Array Fundamental";
+		break;
+	default:
+		cout << "Enter Valid Number";
+	}
+	return 0;
+
+}*/
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main(){
+	int a, b, c, n_1000, n_500, n_100, n_50, n_20, n_10;
+	cout << "Program To Number of notes to Customer";
+	cout << "\n\nEnter Total Amount = ";
+	cin >> a;
+	cout << "\nEnter Given Amount = ";
+	cin >> b;
+	c = b - a;
+
+	cout << "\n\n****************************************************";
+	// if Conditions 
+	if (c >= 1000)
+	{
+		n_1000 = c / 1000;
+		c -= n_1000 * 1000;
+		cout << setw(10)<< "\n1000 = " << n_1000 << endl;
+	}
+	if (c >= 500)
+	{
+		n_500 = c / 500;
+		c -= n_500 * 500;
+		cout << setw(10) << "\n500 = " << n_500 << endl;
+	}
+	if (c >= 100)
+	{
+		n_100 = c / 100;
+		c -= n_100 * 100;
+		cout << setw(10) << "\n100 = " << n_100 << endl;
+	}
+	if (c >= 50)
+	{
+		n_50 = c / 50;
+		c -= n_50 * 50;
+		cout << setw(10) << "\n50 = " << n_50 << endl;
+	}
+	if (c >= 20)
+	{
+		n_20 = c / 20;
+		c -= n_20 * 20;
+		cout << setw(10) << "\n20 = " << n_20 << endl;
+	}
+	if (c >= 10)
+	{
+		n_10 = c / 10;
+		c -= n_10 * 5;
+		cout << setw(10) << "\n10 = " << n_10 << endl;
+	}
+
+	return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
