@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i, a, b, e;
+	cout << "\nEnter Number Of Rows\n";
+	cin >> e;
+	char d;
+	cout << "\nEnter Desired Character\n";
+	cin >> d;
+	/*Using Nested For Loop*/
+	// To Go to Next Line
+	for (i = 1; i <= e; i++)
+	{
+		// To Print Spaces
+		for (b = 1; b <= e - i; b++)
+		{
+			cout << " ";
+		}
+		// To Print Required Characters
+		for (a = 1; a <= i; a++)
+		{
+			cout << d <<" ";
+		}
+		cout << "\n";
+	}
+
+	return 0;
+}
